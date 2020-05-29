@@ -1,0 +1,63 @@
+.div-container{
+    background-color: white;
+}
+
+.sidenav {
+    position: fixed;
+    top: 58px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 130px;
+    background: teal;
+    font: white;
+}
+
+.side-button {
+    text-align: start;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 11pt;
+    transition: font-size 0.5s;
+}
+
+.side-btn {
+    text-align: start;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.side-button:hover{
+    text-decoration: white;
+    text-decoration-line: underline;
+    font-size: 12pt;
+}
+
+
+.sidenav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    background: darkblue;
+    color: white;
+    font-weight: bold;
+}
+
+.container-menu {
+    position: fixed;
+    top: 60px;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+}
+
+
+.header-bar {
+    background: darkblue;
+    color: white;
+    font-weight: bold;
+}
