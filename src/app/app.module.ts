@@ -15,12 +15,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ViewWebcamComponent } from './view-webcam/view-webcam.component';
 import { ViewUploadComponent } from './view-upload/view-upload.component';
+import { ViewWebcamNComponent } from './view-webcam-n/view-webcam-n.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ViewWebcamComponent,
-    ViewUploadComponent
+    ViewUploadComponent,
+    ViewWebcamNComponent
   ],
   imports: [
     BrowserModule,
